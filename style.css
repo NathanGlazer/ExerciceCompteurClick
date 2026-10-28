@@ -1,0 +1,33 @@
+.Grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    grid-template-areas:
+        "item1 item1"
+        "item2 item3";
+    background-color: grey;
+    width: 220px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.item1{
+    grid-area: item1;
+    width:200px;
+    height:50px;
+    border-radius:20px;
+}
+.item2{
+    grid-area :item2;
+    border-radius: 20px;
+    width:100px;
+    height:50px;
+}
+.item3{
+    grid-area: item3;
+    border-radius: 20px;;
+    height:50px;
+}
+.Rouge{
+    color:red;
+}
