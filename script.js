@@ -17,6 +17,9 @@ console.log(Input.value);
 let roug = document.getElementById("rouge")
 
 
- if (Number(Input.value) < 0)  {
-     roug.classList.add("Rouge");
+if (Number(Input.value) < 0)  {
+    roug.classList.add("Rouge");
+}
+if(Number(Input.value) >=0){
+    roug.classListe.remove("Rouge");
 }
